@@ -9,8 +9,10 @@ h1 {
   font-size: 55px;
   font-weight: 400;
   text-align: center;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
+  line-height: 50px;
+  margin-block-start: 0.6em;
+  margin-block-end: 1.2em;
+  max-width: 391px;
 }
 
 .int  {
@@ -18,8 +20,7 @@ h1 {
 }
 
 i {
-  position: absolute;
-  top: 8vh;  
+  top: 57px;
 }
 
 a {
@@ -27,30 +28,33 @@ a {
 }
 
 .insta  {
-  right: 2em;
+  position: absolute;
+  top: 9.5em;
+  right: 39%;
 }
 
 .email  {
-  right: 5em;
+  position: absolute;
+  top: 9.5em;
+  left: 39%;
 }
 
 a:hover {
   color: #ffc7a7;
 }
 
-
 .ik  {
+  display: none;
   height: 90px;
   width: 90px;
   position: absolute;
-  top: 3.2vh;
+  top: 30px;
   left: 2.5em;
   background: 
    linear-gradient(-45deg, white, #ffe7da, #ffc7a7, #ffa774) border-box;
   border: 3px solid transparent;
   border-radius: 50%;
 }
-
 
 /* Hide Visible Scrollbar */
 ::-webkit-scrollbar {
@@ -62,4 +66,31 @@ a:hover {
   font-size: 14px;
   color: white;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .ik  {
+    display: block;
+  }
+
+  h1  {
+    margin-block-end: 0.6em;
+    line-height: normal;
+    max-width: none;
+  }
+  
+  .insta  {
+    position: absolute;
+    right: 2em;
+    left: auto;
+    top: 62px;
+  }
+  
+  .email  {
+    position: absolute;
+    right: 5em;
+    left: auto;
+    top: 62px;
+  }
+
 }
