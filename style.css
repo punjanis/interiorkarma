@@ -1,0 +1,65 @@
+
+html  {
+  background: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: 'Poppins';
+  color: white;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.int  {
+  color: #ffc7a7;
+}
+
+i {
+  position: absolute;
+  top: 8vh;  
+}
+
+a {
+  color: white;
+}
+
+.insta  {
+  right: 2em;
+}
+
+.email  {
+  right: 5em;
+}
+
+a:hover {
+  color: #ffc7a7;
+}
+
+
+.ik  {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 3.2vh;
+  left: 2.5em;
+  background: 
+   linear-gradient(-45deg, white, #ffe7da, #ffc7a7, #ffa774) border-box;
+  border: 3px solid transparent;
+  border-radius: 50%;
+}
+
+
+/* Hide Visible Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.copyright  {
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
